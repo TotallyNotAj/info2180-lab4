@@ -8,7 +8,7 @@ document.getElementById('searchbutton').addEventListener('click', function(){
 
     xhr.onreadystatechange = function(){
         if(xhr.readyState === 4){
-            var resultDiv = document.getElementById('result');
+            var resultDiv = document.querySelector('.result');
             if(xhr.status === 200){
                 resultDiv.innerHTML = xhr.responseText;
             } else{

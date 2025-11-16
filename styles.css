@@ -23,12 +23,19 @@ body{
     font-size: 2em;
 }
 
+.text p{
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 /* Search section */
 .searchdiv{
     display: grid;
     grid-template-columns: 3fr auto;
     gap: 10px;
-    padding: 20px;
+    padding: 15px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -43,7 +50,8 @@ body{
 .searchdiv button{
     padding: 10px 20px;
     font-size: 1em;
-    background-color: darkred;
+    background-color: red;
+    font-weight: bold;
     color: white;
     border: none;
     border-radius: 5px;
@@ -51,7 +59,7 @@ body{
 }
 
 .searchdiv button:hover{
-    background-color: red;
+    background-color: darkred;
 }
 
 /* Result section */
@@ -67,15 +75,16 @@ body{
 }
 
 .result h3{
-    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 0px;
     text-transform: uppercase;
 }
 
 .result h4{
     margin: 0;
     text-transform: uppercase;
-    font-weight: normal;
-    margin-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .result p{

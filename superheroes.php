@@ -86,7 +86,7 @@ if($query === ''){
         }
     }
     if(!$found){
-        echo "<p>SUPERHERO NOT FOUND</p>";
+        echo "<p class='red-text'>SUPERHERO NOT FOUND</p>";
     }
 }
 ?>
